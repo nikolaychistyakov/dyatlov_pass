@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.javarush</groupId>
-    <artifactId>tic-tac-toe</artifactId>
+    <groupId>com.xyc</groupId>
+    <artifactId>dyatlov_pass</artifactId>
     <version>1.0</version>
-    <name>tic-tac-toe</name>
+    <name>dyatlov_pass</name>
     <packaging>war</packaging>
 
     <properties>
@@ -27,6 +27,13 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
             <version>1.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

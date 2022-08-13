@@ -1,0 +1,167 @@
+
+body {
+    background: #BBF;
+}
+
+.top {
+    width: 100%;
+    height: 100%;
+}
+
+.back {
+    width: 1200px;
+    height: 720px;
+    margin:auto;
+    border: 1px solid  #BBF;
+}
+
+.content {
+    margin-top: 200px;
+    margin-left: 33%;
+    text-align: center;
+    width: 500px;
+    background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+    background		: rgba(0, 0, 0, 0.8);
+}
+.content_2{
+    margin:auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 500px;
+    height: 620px;
+    background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+    background		: rgba(0, 0, 0, .8);
+}
+.content_end{
+    margin:auto;
+    margin-top: 270px;
+    text-align: center;
+    width: 500px;
+    background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+    background		: rgba(0, 0, 0, .8);
+}
+
+
+body {
+    background-size: cover;
+}
+
+.desc {
+    padding: 10px 10px;
+    text-transform: none;
+    color: white;
+    font			: 22px Snell Roundhand, cursive;
+    letter-spacing		: -1px;
+}
+.desc_footer {
+    margin-top: -7px;
+    text-transform: none;
+    color: white;
+    font			: 19px Snell Roundhand, cursive;
+    letter-spacing		: -1px;
+}
+.desc_act {
+    padding: 10px 10px;
+    text-decoration: underline;
+    text-transform: none;
+    color: white;
+    font			: 22px Snell Roundhand, cursive;
+    letter-spacing		: -1px;
+}
+.desc_go {
+    margin-top: 50px;
+    text-transform: none;
+    color: white;
+    font			: 22px URW Chancery L, cursive	;
+    letter-spacing		: -1px;
+}
+
+.label_name {
+    text-transform: none;
+
+    color: white;
+    font			: 22px Snell Roundhand, cursive;
+    letter-spacing		: -1px;
+}
+
+.form_input {
+    width: 50%;
+    text-align: center;
+    border: none;
+    font-size: 24px;
+    color: white;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+}
+.form_button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color :#fff ;
+    background-color: #000000;
+    outline: none;
+    cursor: pointer;
+}
+
+.form_go {
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 1px solid white;
+}
+
+input:checked {
+    border: 6px solid black;
+}
+
+button,
+legend {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+}
+
+button:hover,
+button:focus {
+    color: #999;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+}
+label {
+    padding: 10px 10px;
+    text-transform: none;
+    color: white;
+    font			: 21px Helvetica, Sans-Serif;
+    letter-spacing		: -1px;
+}
+
+.form_radio {
+    text-align: left;
+}
+
+
+.footer {
+    margin:auto;
+    text-align: center;
+    width: 500px;
+    background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+    background		: rgba(0, 0, 0, .8);
+}
+.foot {
+    padding-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
