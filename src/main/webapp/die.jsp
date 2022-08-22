@@ -6,14 +6,14 @@
 <div class="top">
     <div class="back" style="background: url('images/end.jpg');background-size: 1280px 720px">
     <div class="content_end">
-        <p class="desc_act">
+        <p class="desc_act" id="desc_die">
             END
         </p>
         <p class="desc">
             <%=name.toUpperCase()%>, БОЛЬШЕ ВАС НИКТО НЕ ВИДЕЛ
         </p>
-        <form class="form_go" method="get" action="/startNewDie">
-            <button class="form_button">Начать заново</button>
+        <form class="form_go" name="form_go" method="get" action="/startNewDie">
+            <button class="form_button" name="form_button">Начать заново</button>
         </form>
     </div>
 </div>

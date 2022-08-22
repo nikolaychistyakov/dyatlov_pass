@@ -3,9 +3,9 @@
          pageEncoding="utf-8"
          isELIgnored="false"
 %>
-<form class="form_go" method="get" action="${pageContext.request.contextPath}/choiceAct">
+<form name="form_go" class="form_go" method="get" action="${pageContext.request.contextPath}/choiceAct">
     <input id="act" type="hidden" name="act" value="<%=request.getParameter("act")%>">
-    <fieldset>
+    <fieldset name="fieldset">
         <legend>Выберите действие:</legend>
         <div class="form_radio">
             <input id="next" type="radio" name="action" value="next" checked>
@@ -16,7 +16,7 @@
             <label for="back"><%=request.getParameter("descAction3")%></label>
         </div>
         <div>
-            <button class="form_button">Выбрать</button>
+            <button class="form_button" name="form_button">Выбрать</button>
         </div>
     </fieldset>
 </form>

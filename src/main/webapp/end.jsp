@@ -9,11 +9,11 @@
         <p class="desc_act">
             АКТ 8. END
         </p>
-        <p class="desc">
+        <p class="desc" id="desc_end">
             1 февраля 1959 вся тургруппа Дятлова погибает.
         </p>
-        <form class="form_go" method="get" action="/startNew">
-            <button class="form_button">Начать заново</button>
+        <form name="form_go" class="form_go" method="get" action="/startNew">
+            <button class="form_button" name="form_button">Начать заново</button>
         </form>
     </div>
     </div>

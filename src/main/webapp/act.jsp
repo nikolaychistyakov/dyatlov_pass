@@ -13,14 +13,14 @@
 <div class="top">
     <div class="back" style="background: url('images/<%=acts.get(act).getImage()%>');background-size: 1280px 720px">
         <div class="content_2">
-            <p class="desc_act">
+            <p class="desc_act" id="desc_act_title">
                 <%=acts.get(act).getTitleAct()%>
             </p>
-            <p class="desc">
+            <p class="desc" id="desc_before">
                 <%=acts.get(act).getTitleBefore()%>
             </p>
             <hr>
-            <p class="desc">
+            <p class="desc" id="desc_after">
                 <%=acts.get(act).getTitleAfter()%>
             </p>
             <jsp:include page="form.jsp">

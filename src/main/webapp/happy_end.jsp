@@ -6,14 +6,14 @@
 <div class="top">
     <div class="back" style="background: url('images/happ.png');background-size: 1280px 720px">
     <div class="content_2">
-        <p class="desc_act">
+        <p class="desc_act" id="desc_happy">
           HAPPY END
         </p>
         <p class="desc">
             <%=name.toUpperCase()%>, ВЫ ВЕРНУЛИСЬ ДОМОЙ!
         </p>
-        <form class="form_go" method="get" action="/startNew">
-            <button class="form_button">Начать заново</button>
+        <form class="form_go" name="form_go" method="get" action="/startNew">
+            <button class="form_button" name="form_button">Начать заново</button>
         </form>
     </div>
     </div>

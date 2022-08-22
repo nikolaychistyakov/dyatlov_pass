@@ -2,11 +2,10 @@ package com.xyc;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+import javax.servlet.http.*;
 import java.io.IOException;
+
+import static com.xyc.InitActs.*;
 
 @WebServlet(
         name = "ChoiceServlet",
@@ -27,7 +26,8 @@ public class ChoiceServlet extends HttpServlet {
                 int a = Integer.parseInt(act);
                 httpSession.setAttribute("act", ++a);
                 httpSession.setAttribute("exp", (int) httpSession.getAttribute("exp") + 5);
-                if(a > 7) {
+                int sizeActs = getActs().size();
+                if(a == ++sizeActs) {
                     getServletContext().getRequestDispatcher("/end.jsp").forward(req, resp);
                 } else {
                     getServletContext().getRequestDispatcher("/act.jsp").forward(req, resp);
